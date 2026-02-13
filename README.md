@@ -40,7 +40,7 @@ ps -A : يعرض كل العمليات اللي شغالة في النظام
 
 kill : أوقف فيه عملية شغالة باستخدام رقم الـ PID حقها
 
-
+_______
 The Commands that the system cannot execute:
 
 
