@@ -2,65 +2,63 @@
 ![task](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(440).png)
 
 
-The commands executed by the system:
+## The commands executed by the system:
 
-ls : أستخدمه عشان يعرض لي الملفات والمجلدات الموجودة في المسار الحالي
+ls : Shows the files and folders in the current directory.
 
-ls -a : يعرض كل الملفات حتى المخفية اللي تبدأ بنقطة
+ls -a : Shows all files, including hidden ones.
 
-pwd : يعطيني المسار الكامل للمجلد اللي أنا موجودة فيه حاليًا.
+pwd : Displays the full path of my current directory.
 
-cd :أتنقل فيه من مجلد لمجلد داخل النظام
+cd : Moves me from one directory to another.
 
-..cd : يرجعني مستوى واحد للخلف في المجلدات
+cd .. : Moves me one back up.
 
-~ cd : يرجعني لمجلد الهوم الخاص فيني بسرعة
+cd ~ : Takes me back to my home directory.
 
-mkdir : أنشئ فيه مجلد جديد
+mkdir : Creates a new folder.
 
-touch : أنشئ فيه ملف جديد وفاضي
+touch : Creates a new empty file.
 
-rm : أحذف فيه ملف
+rm : Deletes a file.
 
-rm -r : أحذف مجلد مع كل الملفات اللي داخله
+rm -r : Deletes a folder and everything inside it.
 
-rmdir : يحذف مجلد فاضي فقط
+rmdir : Deletes an empty folder.
 
-mv : أنقل فيه ملف من مكان لمكان أو أغير اسمه
+mv : Moves or renames a file.
 
-cp : أنسخ فيه ملف من مكان لمكان ثاني
+cp : Copies a file to another location.
 
-nano : أفتح فيه محرر نصوص داخل التيرمنال عشان أكتب أو أعدل على ملف
+nano : Opens a text editor in the terminal to edit files.
 
-man : يعرض لي دليل استخدام أي أمر ويشرح لي خياراته
+man : Shows the manual (help page) for a command.
 
-ps : يعرض العمليات (processes) اللي شغالة حاليًا
+ps : Displays running processes.
 
-ps -A : يعرض كل العمليات اللي شغالة في النظام
+ps -A : Shows all running processes in the system.
 
-kill : أوقف فيه عملية شغالة باستخدام رقم الـ PID حقها
+kill : Stops a running process using its PID.
+
+sudo : Runs a command with administrator privileges.
+
+sudo -i : Switches to root (administrator) mode with full privileges.
+
+sudo apt-get update : Updates the package list in the system.
+
+sudo apt-get install htop : Installs a new package.
+
+sudo apt-get remove htop : Removes an installed package.
+
+htop : Shows system processes in an interactive view.
 
 _______
-The Commands that the system cannot execute:
+## The Commands that the system cannot execute: 
 
+sudo reboot : Restarts the system.
 
+sudo poweroff : Shuts down the system.
 
-sodu : أستخدمه عشان أنفذ أمر بصلاحيات المسؤول (Administrator)
+lspci : Lists PCI hardware devices.
 
-sodu -i : عشان اقدر انفذ اوامر بصلاحية كاملة(root) يدخلني على وضع  
-
-sudo apt-get update : يحدث قائمة الحزم في النظام
-
-sudo apt-get install htop : يثبت برنامج جديد في النظام
-
-sudo apt-get remove htop : يحذف برنامج من النظام
-
-sudo reboot : يعيد تشغيل النظام
-
-sudo poweroff : يطفي النظام بالكامل
-
-lspci : يعرض لي الأجهزة المتصلة عبر PCI في الكمبيوتر
-
-lsusb : يعرض لي أجهزة USB المتصلة
-
-htop : يعرض لي العمليات بشكل مرتب وأسهل عشان أراقب استهلاك المعالج والذاكرة
+lsusb : Lists connected USB devices.
