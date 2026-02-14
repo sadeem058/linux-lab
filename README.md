@@ -2,7 +2,13 @@
 ![task](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(440).png)
 
 
-## The commands executed by the system:
+## The commands executed by the system
+
+![s1](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(441).png)
+![s2](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(442).png)
+![s3](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(443).png)
+![s4](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(444).png)
+![s5](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(446).png)
 
 ls : Shows the files and folders in the current directory.
 
@@ -54,6 +60,11 @@ htop : Shows system processes in an interactive view.
 
 _______
 ## The Commands that the system cannot execute: 
+
+
+![s6](https://github.com/sadeem058/linux-lab/blob/main/Screenshot%20(445).png)
+
+
 
 sudo reboot : Restarts the system.
 
